@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_cnn">
+
+    <fragment
+        android:id="@+id/menu_cnbc"
+        android:name="com.ones.seputarindonesia.ui.detail.cnbcFragment.CNBCMainFragment"
+        android:label="fragment_cnbc_news"
+        tools:layout="@layout/fragment_cnbc_main"></fragment>
+
+    <fragment
+        android:id="@+id/menu_cnn"
+        android:name="com.ones.seputarindonesia.ui.detail.cnbcFragment.CNNMainFragment"
+        android:label="fragment_cnn_news"
+        tools:layout="@layout/fragment_cnn_main"></fragment>
+
+    <fragment
+        android:id="@+id/menu_merdeka"
+        android:name="com.ones.seputarindonesia.ui.detail.cnbcFragment.MERDEKAMainFragment"
+        android:label="fragment_merdeka_news"
+        tools:layout="@layout/fragment_merdeka_main"></fragment>
+
+</navigation>

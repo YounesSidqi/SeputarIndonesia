@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_cnbc"
+        android:icon="@drawable/logo_cnbc"
+        android:title="CNBC"/>
+    <item
+        android:id="@+id/menu_cnn"
+        android:icon="@drawable/logocnn"
+        android:title="CNN"/>
+    <item
+        android:id="@+id/menu_merdeka"
+        android:icon="@drawable/logomerdeka"
+        android:title="MERDEKA"/>
+</menu>
