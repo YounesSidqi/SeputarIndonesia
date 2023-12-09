@@ -10,6 +10,6 @@
         android:title="CNN"/>
     <item
         android:id="@+id/menu_merdeka"
-        android:icon="@drawable/logomerdeka"
-        android:title="MERDEKA"/>
+        android:icon="@drawable/ic_sindonews"
+        android:title="SINDONEWS"/>
 </menu>

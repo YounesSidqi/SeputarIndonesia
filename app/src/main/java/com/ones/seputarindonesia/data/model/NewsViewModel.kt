@@ -31,12 +31,6 @@ class NewsViewModel(private val repository: NewsRepository) : ViewModel() {
         repository.getMarketNews()
     }
 
-
-
-    fun getSearchNews(q: String) {
-        repository.getSearchNews(q)
-    }
-
     // Fungsi untuk mendapatkan berita CNNTerbaruNews
     fun getCNNTerbaruNews() {
         repository.getCNNTerbaruNews()

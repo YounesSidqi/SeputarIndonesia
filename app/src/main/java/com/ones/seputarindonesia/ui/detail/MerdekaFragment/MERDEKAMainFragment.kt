@@ -36,9 +36,9 @@ class MERDEKAMainFragment : Fragment() {
 
         TabLayoutMediator(binding.toptabs, binding.vpNewsmerdeka) { tab, position ->
             when (position) {
-                0 -> tab.text = "Dunia"
-                1 -> tab.text = "Jakarta"
-                2 -> tab.text = "Olahraga"
+                0 -> tab.text = "Edukasi"
+                1 -> tab.text = "Metro"
+                2 -> tab.text = "Otomotif"
             }
         }.attach()
 

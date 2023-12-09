@@ -50,23 +50,23 @@ interface ApiService {
         @Query("sortBy") sortBy: String = "relevancy"
     ): Call<NewsResponse>
 
-    @GET("/merdeka/dunia")
+    @GET("/sindonews/edukasi")
     fun getMERDEKADunia(
-        @Query("q") query: String = "world",
+        @Query("q") query: String = "edukasi",
         @Query("language") language: String = "en",
         @Query("sortBy") sortBy: String = "relevancy"
     ): Call<NewsResponse>
 
-    @GET("/merdeka/jakarta")
+    @GET("/sindonews/metro")
     fun getMERDEKAJakarta(
-        @Query("q") query: String = "Jakarta",
+        @Query("q") query: String = "metro",
         @Query("language") language: String = "en",
         @Query("sortBy") sortBy: String = "relevancy"
     ): Call<NewsResponse>
 
-    @GET("/merdeka/olahraga")
+    @GET("/sindonews/otomotif")
     fun getMERDEKAOlahraga(
-        @Query("q") query: String = "sport",
+        @Query("q") query: String = "otomotif",
         @Query("language") language: String = "en",
         @Query("sortBy") sortBy: String = "relevancy"
     ): Call<NewsResponse>
